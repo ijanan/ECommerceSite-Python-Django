@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.55" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <radialGradient id="r4" cx="70%" cy="55%" r="70%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="600" fill="url(#g4)"/>
+  <rect width="1600" height="600" fill="url(#r4)"/>
+
+  <g opacity="0.08" fill="#ffffff">
+    <rect x="980" y="80" width="520" height="420" rx="42"/>
+  </g>
+
+  <g opacity="0.12" stroke="#ffffff" fill="none">
+    <path d="M1040 170 h400" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1040 230 h300" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1040 290 h240" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <path d="M80 160 C 220 60, 420 70, 560 170 C 700 270, 860 270, 1020 180"
+        fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="10" stroke-linecap="round"/>
+</svg>
